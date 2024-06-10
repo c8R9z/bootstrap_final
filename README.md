@@ -10,5 +10,8 @@ File upload/download:
 Start:
 1. ole õiges folderis 
 2. npm init -y
-3. npm install
-4. npm start
+3. npm i --save-dev vite
+4. npm i --save bootstrap @popperjs/core
+5. npm i --save-dev sass
+6. npm install
+7. npm start
