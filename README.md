@@ -4,7 +4,7 @@ File upload/download:
 2. git commit -m "misiganes tekst"
 3. git push
 
-4. git clone https://github.com/c8R9z/bootstrap_l-pp
+4. git clone https://github.com/c8R9z/bootstrap_final
 5. git pull (failide uuendamiseks)
 
 Start:
