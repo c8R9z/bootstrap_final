@@ -1,14 +1,13 @@
 # bootstrap
 File upload/download:
 1. Git add .
-2. git commit -m "tekst"
+2. git commit -m "misiganes tekst"
 3. git push
 
-4. git clone https://github.com/SepoTheBest/bootstrap.git
-5. git pull (uuendamiseks)
+4. git clone https://github.com/c8R9z/bootstrap_l-pp
+5. git pull (failide uuendamiseks)
 
 Start:
 1. ole õiges folderis 
-   (näiteks my-project)
-2. npm install
+2. npm i -y
 3. npm start
