@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrapi Lõputöö</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: rgb(255, 121, 121);
+      }
+
+    </style>
+
+    <header class="container-fluid"> 
+      <div class="row">
+        <div class="col">
+          <div class="p-5 mb-4 bg-light rounded-3">
+            <h1>Tere!</h1>
+            <p>See on kõige välimine kiht, mida kasutatakse sisu tsentreerimiseks ja lehel paigutamiseks. Bootstrapis on kaks konteineritüüpi:
+
+              .container: Fikseeritud laiusega konteiner, mis kohandub erinevate ekraanisuurustega.
+              .container-fluid: Konteiner, mis venib kogu ekraani laiusele igal seadmel.
+              Miks on konteiner oluline? See loob lehele kindla "lava", millel kogu muu sisu asetseb, tagades elementide korrektse tsentreerimise ja paigutuse.
+              
+              Class B-5 on HTML-i ja CSS-i raamistiku Bootstrap osa. See on konkreetne klass, mida saab kasutada HTML elemendi stiilimiseks Bootstrapi abil. M-B 4 on Bootstrapi raamistiku marginaaliklass, mis määrab elemendile ülemise, alumise, vasaku või parema marginaali suuruse vastavalt Bootstrapi süsteemile.
+              
+              P-5 Bootstrapis on responsiivne klass, mis lisab elemendile padjandit (padding). Näiteks class="p-5" lisab rohkem padjandit, muutes elemendid kenamaks.
+              
+              "Rounded-3" Bootstrapis tähendab, et elemendile lisatakse nurgaümardus tasemega 3. "col" tähistab veergu (column). "md" tähistab keskmise suurusega ekraani (md = medium). "4" tähendab, et element võtab keskmise suurusega ekraanil 4/12 laiusest.
+             </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container mb-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Kaart 1</h5>
+              <p class="card-text">See peab alati asuma konteineri sees. Rida (row) kasutatakse veergude (columns) grupeerimiseks ja see tagab, et kõik veerud paiknevad samal horisontaaltasandil. 
+                Row klass aitab hallata veergude vahelisi vahekaugusi (gutters) ja ridade ühtlust. Ilma reata võivad veerud paigutuda ebaühtlaselt.</p>
+              <img src="https://media.istockphoto.com/id/1297832726/photo/portrait-of-a-smiling-young-businessman.jpg?s=612x612&w=0&k=20&c=32Qg7TnqfGkrDwTL3q0X0Kx9ab3JDzuqxzp4poH39zc=" style="border-radius: 2rem;" alt="fancy man" class="img-thumbnail">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Kaart 2</h5>
+              <p class="card-text">Veerge saab jagada erinevateks suurusteks, kasutades spetsiifilisi klassinimede prefikseid, mis vastavad ekraanisuurustele (nt .col-*, col-sm-*, col-md-*, jne).
+                Veerud on Bootstrapi võrkude süsteemi põhielemendid. Nad võimaldavad sisu jagada mitmeks veeruks, mis kohanduvad automaatselt vastavalt ekraani suurusele. See tagab, et sisu on korralikult organiseeritud ja reageeriv.</p>
+              <img src="https://media.istockphoto.com/id/1398788816/photo/man-with-black-skin-enjoying-aroma-of-coffee-cup.jpg?s=612x612&w=0&k=20&c=Z2YD2m-thEIGoQz3a395gTMUXiHlgRcf1JNlpsUIf7s=" style="border-radius: 2rem;" alt="Mmm Coffee" class="img-thumbnail">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+        
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Kaart 3</h5>
+              <p class="card-text">See on kolmas kaart.</p>
+              <img src="https://media.istockphoto.com/id/477341009/photo/sad-man-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=Ba6r1E1dUbTz5WP3xXOOJR_q1lq5cGM5mkvDSakrRE0=" style="border-radius: 2rem;" alt="Mees ei saanud kommi" class="img-thumbnail">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      .img-thumbnail{
+       
+ aspect-ratio: 1/1;
+ object-fit: cover;
+
+      }
+    </style>
+    <article class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+      </div>
+    </article>
+    <footer class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html> 
