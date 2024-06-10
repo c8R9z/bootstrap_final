@@ -9,5 +9,6 @@ File upload/download:
 
 Start:
 1. ole õiges folderis 
-2. npm i -y
-3. npm start
+2. npm init -y
+3. npm install
+4. npm start
